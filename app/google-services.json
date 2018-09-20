@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "538617796333",
+    "firebase_url": "https://fir-f523a.firebaseio.com",
+    "project_id": "fir-f523a",
+    "storage_bucket": "fir-f523a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538617796333:android:d2983c58e9a4a462",
+        "android_client_info": {
+          "package_name": "flipped.flipped"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538617796333-g8j3s0c8f6li0llii4hdd5cc9lrms8eg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "flipped.flipped",
+            "certificate_hash": "91b291c09a1e88b9732e18e6c21bee9f5e26ed6e"
+          }
+        },
+        {
+          "client_id": "538617796333-g4drq698v55ktj53ni1stam74qhtmeco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyqJTe-2cJSTCdIeFT6RD4Fu3DW3wrUxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538617796333-g4drq698v55ktj53ni1stam74qhtmeco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
