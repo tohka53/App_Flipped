@@ -31,7 +31,7 @@ public class Call extends AppCompatActivity implements VidyoConnector.IConnect {
     }
 
     public void Connect(View v) {
-       String  token = "cHJvdmlzaW9uAGRlbW9Vc2VyNzY4MkA3Zjc2NjcudmlkeW8uaW8ANjM3MDM3NDMxMTIAAGIwZTNiMjE2MjliZTFhMzg2MTVhNjBjMTg4YjFlMGU5ZGU4YmEyOTM0YWI2Zjc2NmRhNGM3ZjA2MDZjZjIxZmUwZTQzYTA1ZGY2MDZjOTQxNTc3ODY1YzdiYmRjNjZiNA==";
+       String  token = "cHJvdmlzaW9uAGRlbW9Vc2VyMDc4MEA3Zjc2NjcudmlkeW8uaW8ANjM3MDUwNjY1OTMAADliNThmODA5ZDk4YTFiNTFjMmMwY2M0NWI0MzcxZDUyZDFiNzc5ZjFkY2IzYmE3YzNkOWU0ZTRjMTFjNDI5MjA3YjAwYjkwYTI4Y2QxYzU0NjkxMDUwOTQwMTNmOWQ1Ng==";
         vc.Connect("prod.vidyo.io", token, "user99581", "demoroom", (VidyoConnector.IConnect) this);
     }
 

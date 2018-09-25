@@ -1,34 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/azulgrande"
-    tools:context="flipped.flipped.login">
+    tools:context="flipped.flipped.Login">
 
 
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/buttonlogin"
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="365dp"
+        app:srcCompat="@android:color/holo_blue_bright" android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="370dp"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress" />
 
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"></com.google.android.gms.common.SignInButton>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="410dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="475dp"
+        android:text="Login" />
 
-
-<ImageView
+    <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        app:srcCompat="@drawable/logo_app"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="26dp" />
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/logo_app" />
 
-
-</RelativeLayout>
+</RelativeLayout >
